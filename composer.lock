@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97b8ccbd4af51fae6101e58e080856fd",
+    "content-hash": "0feb3ffcfbae43f2b28556befb6326ef",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3331,10 +3331,16 @@
         {
             "name": "pivlu/pivlu",
             "version": "2.0.0",
-            "dist": {
-                "type": "path",
-                "url": "../pivlu",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pivlu/pivlu.git",
                 "reference": "52257959d5020cff16cd6f8f3d77d310241806ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pivlu/pivlu/zipball/52257959d5020cff16cd6f8f3d77d310241806ca",
+                "reference": "52257959d5020cff16cd6f8f3d77d310241806ca",
+                "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.24",
@@ -3354,13 +3360,14 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Pivlu\\Cms\\": "src/"
-                },
                 "files": [
                     "src/Helpers/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Pivlu\\Cms\\": "src/"
+                }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "AGPL-3.0-or-later"
             ],
@@ -3372,9 +3379,11 @@
             ],
             "description": "Pivlu: Open source CMS and Website Builder.",
             "homepage": "https://pivlu.com",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/pivlu/pivlu/issues",
+                "source": "https://github.com/pivlu/pivlu/tree/v2.0.0"
+            },
+            "time": "2025-12-25T23:01:29+00:00"
         },
         {
             "name": "pragmarx/google2fa",
