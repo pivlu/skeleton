@@ -87,13 +87,7 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         }
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../pivlu"
-        }
-    ],
+    },   
     "minimum-stability": "stable",
     "prefer-stable": true
 }
