@@ -15,8 +15,7 @@
         "php": "^8.2",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
-        "pivlu/pivlu": "^2.0",        
-        "pivlu/theme-blogger-one": "^1.0"
+        "pivlu/pivlu": "^2.0"        
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -88,21 +87,7 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         }
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../pivlu"
-        },
-        {
-            "type": "path",
-            "url": "../theme-builder"
-        },
-        {
-            "type": "path",
-            "url": "../theme-blogger-one"
-        }
-    ],
+    },    
     "minimum-stability": "stable",
     "prefer-stable": true
 }

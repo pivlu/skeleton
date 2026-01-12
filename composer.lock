@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffd4b620b5aa483cbfe05f3750738853",
+    "content-hash": "0feb3ffcfbae43f2b28556befb6326ef",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.369.9",
+            "version": "3.369.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "cb7c0a255a34d44f13f9276d720827d56a3b381b"
+                "reference": "014c521eae8eeb1f9562cb512523b17cd6c1bec7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cb7c0a255a34d44f13f9276d720827d56a3b381b",
-                "reference": "cb7c0a255a34d44f13f9276d720827d56a3b381b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/014c521eae8eeb1f9562cb512523b17cd6c1bec7",
+                "reference": "014c521eae8eeb1f9562cb512523b17cd6c1bec7",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.11"
             },
-            "time": "2026-01-07T19:06:56+00:00"
+            "time": "2026-01-12T19:14:19+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1643,16 +1643,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.45.2",
+            "version": "v12.46.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d644693433290996bf764397b086228ce81781e6"
+                "reference": "9dcff48d25a632c1fadb713024c952fec489c4ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d644693433290996bf764397b086228ce81781e6",
-                "reference": "d644693433290996bf764397b086228ce81781e6",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9dcff48d25a632c1fadb713024c952fec489c4ae",
+                "reference": "9dcff48d25a632c1fadb713024c952fec489c4ae",
                 "shasum": ""
             },
             "require": {
@@ -1861,7 +1861,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-01-07T15:03:01+00:00"
+            "time": "2026-01-07T23:26:53+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -3575,11 +3575,17 @@
         },
         {
             "name": "pivlu/pivlu",
-            "version": "2.0.0",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pivlu/pivlu.git",
+                "reference": "f1c12d2c0c0a54c72131b64102b505a474c13455"
+            },
             "dist": {
-                "type": "path",
-                "url": "../pivlu",
-                "reference": "5156262049de95d1af4eff916ef1a6d06972c433"
+                "type": "zip",
+                "url": "https://api.github.com/repos/pivlu/pivlu/zipball/f1c12d2c0c0a54c72131b64102b505a474c13455",
+                "reference": "f1c12d2c0c0a54c72131b64102b505a474c13455",
+                "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.24",
@@ -3602,13 +3608,14 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Pivlu\\": "src/"
-                },
                 "files": [
                     "src/Helpers/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Pivlu\\": "src/"
+                }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "AGPL-3.0-or-later"
             ],
@@ -3620,48 +3627,11 @@
             ],
             "description": "Pivlu: Open source CMS and Website Builder.",
             "homepage": "https://pivlu.com",
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "pivlu/theme-blogger-one",
-            "version": "1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "../theme-blogger-one",
-                "reference": "ffd5a52ba76605ae3908bf60f347bf13d4d94f6b"
+            "support": {
+                "issues": "https://github.com/pivlu/pivlu/issues",
+                "source": "https://github.com/pivlu/pivlu/tree/v2.1.1"
             },
-            "require": {
-                "pivlu/pivlu": "^2.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Pivlu\\ThemeBloggerOne\\Providers\\ThemeServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pivlu\\ThemeBloggerOne\\": "src/"
-                }
-            },
-            "license": [
-                "AGPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Chimilevschi Iosif-Gabriel",
-                    "email": "office@pivlu.com"
-                }
-            ],
-            "description": "Theme Blogger One",
-            "homepage": "https://pivlu.com",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2026-01-12T23:21:06+00:00"
         },
         {
             "name": "pragmarx/google2fa",
@@ -4406,16 +4376,16 @@
         },
         {
             "name": "spatie/image",
-            "version": "3.9.0",
+            "version": "3.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/image.git",
-                "reference": "01ad7779580c4075758505e594445805e587d7da"
+                "reference": "9a8e02839897b236f37708d24bcb12381ba050ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/image/zipball/01ad7779580c4075758505e594445805e587d7da",
-                "reference": "01ad7779580c4075758505e594445805e587d7da",
+                "url": "https://api.github.com/repos/spatie/image/zipball/9a8e02839897b236f37708d24bcb12381ba050ff",
+                "reference": "9a8e02839897b236f37708d24bcb12381ba050ff",
                 "shasum": ""
             },
             "require": {
@@ -4463,7 +4433,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/image/tree/3.9.0"
+                "source": "https://github.com/spatie/image/tree/3.9.1"
             },
             "funding": [
                 {
@@ -4475,7 +4445,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-07T11:16:22+00:00"
+            "time": "2026-01-12T07:34:13+00:00"
         },
         {
             "name": "spatie/image-optimizer",
@@ -4788,16 +4758,16 @@
         },
         {
             "name": "spatie/temporary-directory",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/temporary-directory.git",
-                "reference": "580eddfe9a0a41a902cac6eeb8f066b42e65a32b"
+                "reference": "662e481d6ec07ef29fd05010433428851a42cd07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/temporary-directory/zipball/580eddfe9a0a41a902cac6eeb8f066b42e65a32b",
-                "reference": "580eddfe9a0a41a902cac6eeb8f066b42e65a32b",
+                "url": "https://api.github.com/repos/spatie/temporary-directory/zipball/662e481d6ec07ef29fd05010433428851a42cd07",
+                "reference": "662e481d6ec07ef29fd05010433428851a42cd07",
                 "shasum": ""
             },
             "require": {
@@ -4833,7 +4803,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/temporary-directory/issues",
-                "source": "https://github.com/spatie/temporary-directory/tree/2.3.0"
+                "source": "https://github.com/spatie/temporary-directory/tree/2.3.1"
             },
             "funding": [
                 {
@@ -4845,7 +4815,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-13T13:04:43+00:00"
+            "time": "2026-01-12T07:42:22+00:00"
         },
         {
             "name": "symfony/clock",
