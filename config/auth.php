@@ -62,7 +62,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', Pivlu\Cms\Models\User::class),
+            'model' => env('AUTH_MODEL', Pivlu\Models\User::class),
         ],
 
         // 'users' => [
