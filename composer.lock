@@ -3575,16 +3575,16 @@
         },
         {
             "name": "pivlu/pivlu",
-            "version": "v2.1.6",
+            "version": "v2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pivlu/pivlu.git",
-                "reference": "14fd920c3d0b748725c3f160f961018220285ebc"
+                "reference": "f5c2f4a3924337f0c136ba5dc47fc31e26fb7b2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pivlu/pivlu/zipball/14fd920c3d0b748725c3f160f961018220285ebc",
-                "reference": "14fd920c3d0b748725c3f160f961018220285ebc",
+                "url": "https://api.github.com/repos/pivlu/pivlu/zipball/f5c2f4a3924337f0c136ba5dc47fc31e26fb7b2b",
+                "reference": "f5c2f4a3924337f0c136ba5dc47fc31e26fb7b2b",
                 "shasum": ""
             },
             "require": {
@@ -3629,9 +3629,9 @@
             "homepage": "https://pivlu.com",
             "support": {
                 "issues": "https://github.com/pivlu/pivlu/issues",
-                "source": "https://github.com/pivlu/pivlu/tree/v2.1.6"
+                "source": "https://github.com/pivlu/pivlu/tree/v2.1.7"
             },
-            "time": "2026-01-13T01:16:28+00:00"
+            "time": "2026-01-19T01:27:39+00:00"
         },
         {
             "name": "pragmarx/google2fa",
