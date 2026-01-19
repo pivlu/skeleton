@@ -29,4 +29,3 @@ Homestead.json
 .phpactor.json
 auth.json
 /vendor
-composer.lock
